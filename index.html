@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+
+        <!-- Campo de entrada de texto para adicionar novas tarefas -->
+        <input type="text" id="taskInput" placeholder="Digite uma tarefa" />
+        </br>
+        <input type="datetime-local" id="taskDate" />
+
+        <!-- Botão para adicionar a tarefa -->
+        <button id="addTaskButton">Adicionar Tarefa</button>
+
+        <h3>Tarefas Pendentes</h3>
+        <ul id="taskList"></ul> <!-- Lista de tarefas pendentes -->
+
+        <h3>Tarefas Concluídas</h3>
+        <ul id="completedList"></ul> <!-- Lista de tarefas concluídas -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
